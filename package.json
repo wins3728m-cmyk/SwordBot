@@ -1,0 +1,17 @@
+{
+  "name": "whatsapp-game-bot",
+  "version": "1.0.0",
+  "description": "Bot WhatsApp untuk grup game: sticker maker, brat sticker, minigame, dan admin command",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@hapi/boom": "^10.0.1",
+    "@whiskeysockets/baileys": "^6.7.9",
+    "canvas": "^2.11.2",
+    "pino": "^9.0.0",
+    "qrcode-terminal": "^0.12.0",
+    "wa-sticker-formatter": "^4.4.4"
+  }
+}
